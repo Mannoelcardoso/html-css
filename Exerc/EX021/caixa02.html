@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+    }
+    nav{
+        background-color: rgb(171, 155, 155);
+        padding: 3px; 
+        box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.473);
+    }
+
+    nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 30px;
+        
+    }
+    
+    nav> a:hover{
+        text-decoration: none;
+        
+    }
+
+    header{
+        background-color: whitesmoke;
+        padding: 10px;
+        margin: 10px;
+    }
+    main{
+        background-color: whitesmoke;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.422);
+    }
+
+    article{
+        background-color: lightgray;
+        padding: 5px;
+    }
+    article>aside{
+        background-color: rgb(161, 157, 157);
+    }
+    footer{
+        background-color: rgb(166, 166, 166);
+        text-align: center;
+        padding: 4px;
+        color: white;
+        margin: 0px;
+    }
+    footer > p{
+        margin: 0px;
+    }
+    
+    #assuntos{
+        background-color: rgb(155, 126, 126);
+        padding: 3px;
+        font-weight: bolder;
+        color: rgb(43, 33, 33);
+        border: 10px;
+    }
+    div#bola{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+        margin: 50px;
+        
+    }
+</style>
+<body>
+    <header>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esporte Noticia Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, at tempore. Facere id dolore illum, ab autem voluptates eligendi eius est enim doloribus optio dolores quibusdam itaque perspiciatis sequi deserunt!</p>
+                <aside>
+                    <p>Artigo escrito por Prego Pinho da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Dev Manoel Cardoso</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
