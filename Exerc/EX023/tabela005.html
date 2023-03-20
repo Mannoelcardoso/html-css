@@ -11,6 +11,7 @@
         }
         th{
             border: 2px solid black;
+            padding: 5px;
         }
         .neg{
             font-weight: bold;
@@ -38,14 +39,14 @@
         <caption>Filmes Favoritos</caption>
         <thead>
             <tr>
-                <th class="neg">Grupo</>
-                <th class="neg">Nomes</>
-                <th colspan="3" class="neg">Filmes</th>
+                <th scope="col" class="neg">Grupo</>
+                <th scope="col" class="neg">Nomes</>
+                <th scope="colgroup" colspan="3" class="neg">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th  rowspan="3" class="neg">Mulheres</th>
+                <th scope="rowgroup" rowspan="3" class="neg">Mulheres</th>
                 <td>Ana Maria santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -64,7 +65,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <th  rowspan="3" class="neg">Homens</th>
+                <th scope="rowgroup" rowspan="3" class="neg">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
@@ -83,6 +84,13 @@
                 <td>Toy Story</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                
+                <th scope="row" colspan="4">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
