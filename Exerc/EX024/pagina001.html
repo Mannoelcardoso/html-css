@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de teste</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:antiquewhite;
+        }
+
+        table{
+            border: 1px solid black;
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            font-size: 1em;
+            font-weight: bold;
+            border: 2px solid black;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgreen;
+        }
+        thead,tfoot{
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: lightgray;
+        }
+
+        td,th{
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Isso é um teste</h1>
+    <table>
+        <caption>Unidades das Repúblicas Federativas do Nordeste</caption>
+        <thead>
+            <tr>
+                <th scope="col">Capital</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">4 080 661</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td class="num">3 919 658</td>
+            </tr>
+            <tr>
+                <td>São Luís</td>
+                <td class="num">1 108 975</td>
+            </tr>
+            <tr>
+                <td>Maceió</td>
+                <td class="num">1 025 360</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">890 480</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="num">868 075</td>
+            </tr>
+            <tr>
+                <td>João Pessoa</td>
+                <td class="num">817 511</td>
+            </tr>
+            <tr>
+                <td>Aracaju</td>
+                <td class="num">664 908	</td>
+            </tr>
+            <tr>
+                <td>Feira de Santana</td>
+                <td class="num">619 609</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de Habitantes</th>
+            <td class="num"><strong>13.995.237</strong></td>
+        </tfoot>
+    </table>
+</body>
+</html>
