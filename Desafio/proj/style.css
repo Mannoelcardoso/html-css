@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+body{
+    height: 92.3vw ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-image: linear-gradient( to top,#2A8C82 , #9BF2EA);
+}
+
+ul{
+    text-decoration:none;
+    list-style: none;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color:dimgray;
+}
